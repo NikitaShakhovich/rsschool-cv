@@ -1,1 +1,2 @@
-# rsschool-cv
+https://NikitaShakhovich.github.io/rsschool-cv/cv
+
