@@ -1,5 +1,6 @@
 # NIKITA SHAKHOVICH
-![PHOTO NIKITA SHAKHOVICH](img/photo-shakhovich.jpg)
+![PHOTO NIKITA SHAKHOVICH](img/photo-ShakhovichNikita.jpg)
+
 ## CONTACT:
 * Minsk;
 * phone: (+375 44) 714 93 82;
@@ -7,16 +8,23 @@
 * Discord: Nikita Sh.#4225;
 * E-mail: shahovichn@gmail.com;
 * GitHub: github.com/NikitaShakhovich;
+
 ## PERSONAL INFORMATION:
 I studied HTML5, CSS3, SASS / LESS on my own, I don’t stop at the basics of JS. I love looking for the best solutions and putting them into practice.
+
 ## SKILLS:
 * html5;
 * css3;
 * javascript;
 * sass/less;
 * git.
+
 ## CODE EXAMPLES:
-There will be a code from Codewars.
+[hotel search "Sedona"](https://github.com/NikitaShakhovich/1635751-sedona-22)
+
+
+[online store "Technomart"](https://github.com/NikitaShakhovich/1635751-technomart-30)
+
 ## EXPERIENCE:
 **Internship LLC "Interactive Learning Technologies" (htmlacademy):**
 
@@ -52,6 +60,7 @@ There will be a code from Codewars.
 * **Name of the Education Establishment:** Belarusian State University of Informatics and Radioelectronics
   **Faculty/College:** Faculty of Computer Systems and Networks
   **Degree (diploma):** Bachelor
+  
 ## KNOWLEDGE OF ENGLISH
 А1. Beginner
 
