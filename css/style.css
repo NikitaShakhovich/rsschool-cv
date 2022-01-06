@@ -1,0 +1,240 @@
+/* Variables color text */
+
+:root {
+    --basic-blue: midnightblue;
+    --basic-grey: #F8F0E4;
+    --link-hover: orange;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../assets/fonts/ptsans.woff2") format("woff2"), url("../assets/fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("../assets/fonts/ptsansbold.woff2") format("woff2"), url("../assets/fonts/ptsansbold.woff") format("woff");
+}
+
+.page {
+    height: 100%;
+    font-size: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-header {
+    background-color: var(--basic-blue);
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.page-footer {
+    background-color: var(--basic-blue);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*.nav {*/
+
+/*}*/
+
+.section-list,
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-item {
+    position: relative;
+    z-index: 1;
+    padding: 5px 0 0 30px;
+    margin: 0 0 0 0;
+}
+
+.section-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--basic-blue);
+}
+
+.section-item a:hover {
+    color: var(--link-hover);
+}
+
+.section-item p {
+    margin: 0;
+    padding: 5px 0 5px 0;
+}
+
+.section-item svg {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.section-item path:nth-child(1) {
+    fill: var(--basic-blue);
+}
+
+.section-courses p:nth-of-type(1),
+.section-experience p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.section-courses svg,
+.section-skills svg,
+.section-experience svg {
+    top: 15px;
+    left: 0;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    color: var(--basic-grey);
+    font-size: 21px;
+    transition: color 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--link-hover);
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    margin-top: -40px;
+    padding: 30px 10px 0 10px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-education p,
+.section-english p,
+.section-summary-subtitle {
+    padding-left: 30px;
+}
+
+.section-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    padding: 70px 10px 10px 10px;
+}
+
+.section-profile-logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--basic-blue);
+}
+
+.section-title {
+    text-transform: uppercase;
+    border-top: 2px solid var(--basic-blue);
+    padding: 40px 0 0 0;
+    letter-spacing: 7px;
+}
+
+.section-profile-subtitle {
+    text-transform: none;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.section-code {
+    padding: 0;
+    margin: 0;
+}
+
+.section-profile-title {
+    text-transform: uppercase;
+}
+
+.section-profile-title .section-title {
+    border: none;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 30px 60px 30px 60px;
+    margin: 0;
+    color: var(--basic-grey);
+    font-weight: bold;
+}
+
+.icon-rs {
+    width: 200px;
+    height: 80px;
+    transition: fill 0.3s ease-in-out;
+}
+
+.icon-rs:hover path {
+    fill: var(--link-hover);
+    transition: fill 0.3s ease-in-out;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: var(--basic-grey);
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.footer-links:hover {
+    color: var(--link-hover);
+}
