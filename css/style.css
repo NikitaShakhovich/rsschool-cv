@@ -1,8 +1,9 @@
 /* Variables color text */
 
 :root {
-    --basic-black: #000000;
-    --basic-white: #FFFFFF;
+    --basic-blue: midnightblue;
+    --basic-grey: #F8F0E4;
+    --link-hover: orange;
 }
 
 * {
@@ -40,14 +41,14 @@
 }
 
 .page-header {
-    background-color: midnightblue;
+    background-color: var(--basic-blue);
     position: sticky;
     z-index: 3;
     top: 0;
 }
 
 .page-footer {
-    background-color: midnightblue;
+    background-color: var(--basic-blue);
 }
 
 .container {
@@ -75,7 +76,12 @@
 
 .section-item a {
     text-decoration: none;
-    color: midnightblue;
+    color: var(--basic-blue);
+}
+
+.section-item p {
+    margin: 0;
+    padding: 5px 0 5px 0;
 }
 
 .section-item svg {
@@ -87,7 +93,23 @@
 }
 
 .section-item path:nth-child(1) {
-    fill: midnightblue;
+    fill: var(--basic-blue);
+}
+
+.section-courses p:nth-of-type(1),
+.section-experience p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.section-courses svg,
+.section-skills svg,
+.section-experience svg {
+    top: 15px;
+    left: 0;
+}
+
+.section-item a:hover {
+    color: var(--link-hover);
 }
 
 .nav-list {
@@ -101,13 +123,13 @@
     text-decoration: none;
     padding: 0 20px;
     line-height: 50px;
-    color: #F8F0E4;
+    color: var(--basic-grey);
     font-size: 21px;
     transition: color 0.5s;
 }
 
 .nav-item .nav-link:hover {
-    color: orange;
+    color: var(--link-hover);
 }
 
 .container {
@@ -132,6 +154,12 @@
     }
 }
 
+.section-education p,
+.section-english p,
+.section-summary-subtitle {
+    padding-left: 30px;
+}
+
 .section-profile {
     display: flex;
     flex-direction: row;
@@ -147,12 +175,12 @@
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid midnightblue;
+    border: 5px solid var(--basic-blue);
 }
 
 .section-title {
     text-transform: uppercase;
-    border-top: 2px solid midnightblue;
+    border-top: 2px solid var(--basic-blue);
     padding: 40px 0 0 0;
     letter-spacing: 7px;
 }
@@ -184,7 +212,7 @@
     align-items: center;
     padding: 30px 60px 30px 60px;
     margin: 0;
-    color: #F8F0E4;
+    color: var(--basic-grey);
     font-weight: bold;
 }
 
@@ -195,17 +223,17 @@
 }
 
 .icon-rs:hover path {
-    fill: orange;
+    fill: var(--link-hover);
     transition: fill 0.3s ease-in-out;
 }
 
 .footer-links {
     text-decoration: none;
-    color: #F8F0E4;
+    color: var(--basic-grey);
     font-weight: bold;
     transition: color 0.5s;
 }
 
 .footer-links:hover {
-    color: orange;
+    color: var(--link-hover);
 }
