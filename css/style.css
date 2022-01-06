@@ -76,7 +76,12 @@
 
 .section-item a {
     text-decoration: none;
+    font-weight: bold;
     color: var(--basic-blue);
+}
+
+.section-item a:hover {
+    color: var(--link-hover);
 }
 
 .section-item p {
@@ -106,10 +111,6 @@
 .section-experience svg {
     top: 15px;
     left: 0;
-}
-
-.section-item a:hover {
-    color: var(--link-hover);
 }
 
 .nav-list {
