@@ -74,6 +74,10 @@
     margin: 0 0 0 0;
 }
 
+.section-item:last-child {
+    padding: 5px 0 40px 30px;
+}
+
 .section-item a {
     text-decoration: none;
     font-weight: bold;
@@ -109,7 +113,8 @@
 
 .section-courses svg,
 .section-skills svg,
-.section-experience svg {
+.section-experience svg,
+.section-portfolio svg {
     top: 15px;
     left: 0;
 }
@@ -150,6 +155,12 @@
     padding: 30px 10px 0 10px;
 }
 
+.section-education p:last-child,
+.section-english p:last-child,
+.section-summary p:last-child {
+    padding: 5px 0 30px 30px;
+}
+
 @media (max-width: 768px) {
     .section {
         width: 100%;
@@ -159,7 +170,8 @@
 .section-education p,
 .section-english p,
 .section-summary-subtitle {
-    padding-left: 30px;
+    padding: 5px 0 5px 30px;
+    margin: 0;
 }
 
 .section-profile {
@@ -169,7 +181,7 @@
     justify-content: space-around;
     width: 100%;
     text-align: center;
-    padding: 70px 10px 10px 10px;
+    padding: 70px 10px 40px 10px;
 }
 
 .section-profile-logo {
@@ -183,7 +195,8 @@
 .section-title {
     text-transform: uppercase;
     border-top: 2px solid var(--basic-blue);
-    padding: 40px 0 0 0;
+    padding: 40px 0 10px 0;
+    margin: 0;
     letter-spacing: 7px;
 }
 
@@ -191,11 +204,6 @@
     text-transform: none;
     letter-spacing: 2px;
     font-weight: normal;
-}
-
-.section-code {
-    padding: 0;
-    margin: 0;
 }
 
 .section-profile-title {
