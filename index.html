@@ -21,7 +21,7 @@
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
@@ -38,7 +38,7 @@
                 <h3 class="section-profile-subtitle">Junior frontend developer</h3>
             </div>
         </section>
-        <section class="section" id="contacts">
+        <section class="section section-contacts" id="contacts">
             <h2 class="section-title">Contacts</h2>
             <ul class="section-list">
                 <li class="section-item contacts-location">
@@ -74,7 +74,7 @@
                         <path d="M228.5 22.2c-31.1 3.5-68.3 16.5-95.5 33.3-22 13.7-47.2 36.1-62.2 55.5-25.6 33.1-41.7 71.2-48 113.5-2 13.6-1.7 51.2.5 65.5C33.6 356.5 70.4 414.5 126 451.6c28.7 19.1 62.3 32 96.6 37.1 16.4 2.4 50.4 2.4 66.8 0 41.1-6.1 81.5-23.7 113.6-49.4 45.9-36.8 76.4-89.7 85.7-148.5 2.5-15.9 2.5-53.7 0-69.6-8.3-52.4-32.9-99.5-70.8-135.6-37-35.2-86.1-58.1-136.1-63.5-11.4-1.3-41.9-1.2-53.3.1zM407 141.9c0 .5-1.8 2.4-3.9 4.3-7.8 6.6-64.1 58.5-67.6 62.2-1.8 1.9-32.2 30.2-56.7 52.7-11.7 10.8-16.7 13.9-22.6 13.9-7.8 0-8.1-.2-49.6-38.4-8.3-7.6-19.1-17.8-24.1-22.5-16.1-15.5-64.7-60.3-73.6-67.9-2.1-1.9-3.9-3.8-3.9-4.3s60.1-.9 151-.9 151 .4 151 .9zm-269 54.3c15.1 13.8 33.1 30.5 40 37l12.4 11.8-3.9 3.9c-2.2 2.1-21.8 20.2-43.5 40.1-21.7 20-43.1 39.8-47.5 44-4.4 4.3-9.9 9.4-12.2 11.5l-4.3 3.7v-97.1c0-99.4 0-99 3.8-103.3 1.4-1.6 2.4-.8 14.6 10.7 7.2 6.8 25.5 23.8 40.6 37.7zm293.2-45.1c1.7 3.2 1.8 10 1.8 100.3v96.8l-6.4-5.8C412 329 336 258.1 329.5 251.8l-7-6.9 9.6-9.2c5.2-5.1 23.9-22.3 41.4-38.2 17.6-16 36.9-33.8 43-39.7 6-5.9 11.5-10.6 12-10.5.6.2 1.8 1.9 2.7 3.8zm-211.7 120c20.1 18.8 23 20.4 37 20.4 14.3 0 17.1-1.5 36.7-19.9 8.7-8.1 16.2-14.6 16.7-14.4.6.1 7.9 6.9 16.3 14.9s28.4 26.6 44.3 41.3c42.7 39.4 56 52 56 53.1 0 .5-1.6 1.8-3.5 2.8-3.3 1.6-12.9 1.7-168 1.5-163.2-.3-164.5-.3-167.7-2.3l-3.2-2 15.7-14.7c8.6-8 31-28.8 49.7-46.1 18.7-17.4 38.3-35.6 43.5-40.6 5.2-4.9 9.7-9 10-9 .3 0 7.7 6.7 16.5 15z"/>
                     </svg>
                     Email:
-                    <a href="mailto:shahovichn@gmail.com" title="email">shahovichn@gmail.com</a>
+                    <a href="mailto:shahovichn@gmail.com" title="email">7149382@tut.by</a>
                 </li>
                 <li class="section-item contacts-github">
                     <svg fill="#f0ae12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -108,13 +108,13 @@
                 </li>
             </ul>
         </section>
-        <section class="section" id="summary">
+        <section class="section section-summary" id="summary">
             <h2 class="section-title">Summary</h2>
             <p class="section-summary-subtitle">I am focused on writing easily maintainable, quality code. I like a job that allows me to see the results of my work, sets interesting tasks and allows me to develop professionally.
                 In the process of work I learn quickly and have a great desire for professional growth. I consider it's important to work in a close-knit team, where people are always ready to share their experience and perform their tasks with high quality to achieve a common goal.
             </p>
         </section>
-        <section class="section" id="skills">
+        <section class="section section-skills" id="skills">
             <h2 class="section-title">Skills</h2>
             <ul class="section-list">
                 <li class="section-item section-skills">
@@ -143,17 +143,47 @@
                 </li>
             </ul>
         </section>
-        <section class="section" id="code">
-            <h2 class="section-title">Code</h2>
-            <pre class="section-code">
-                <code>
-    function digitize(n) {
-    return n.toString().split('').reverse().map(Number);
-    }
-                </code>
-            </pre>
+        <section class="section section-portfolio" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <ul class="section-list">
+                <li class="section-item section-portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M14 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8m0 2c3.32 0 6 2.69 6 6 0 3.32-2.68 6-6 6a6 6 0 0 1-6-6 6 6 0 0 1 6-6M4.93 5.82C3.08 7.34 2 9.61 2 12a8 8 0 0 0 8 8c.64 0 1.27-.08 1.88-.23-1.76-.39-3.38-1.27-4.71-2.48C5.22 16.25 4 14.21 4 12c0-.3.03-.59.07-.89C4.03 10.74 4 10.37 4 10c0-1.44.32-2.87.93-4.18Z"/>
+                    </svg>
+                    <p><a href="https://rolling-scopes-school.github.io/nikitashakhovich-JSFE2022Q1/shelter/main.html">
+                        Site About the shelter “Cozy House”</a></p>
+                </li>
+                <li class="section-item section-portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M14 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8m0 2c3.32 0 6 2.69 6 6 0 3.32-2.68 6-6 6a6 6 0 0 1-6-6 6 6 0 0 1 6-6M4.93 5.82C3.08 7.34 2 9.61 2 12a8 8 0 0 0 8 8c.64 0 1.27-.08 1.88-.23-1.76-.39-3.38-1.27-4.71-2.48C5.22 16.25 4 14.21 4 12c0-.3.03-.59.07-.89C4.03 10.74 4 10.37 4 10c0-1.44.32-2.87.93-4.18Z"/>
+                    </svg>
+                    <p><a href="https://rolling-scopes-school.github.io/nikitashakhovich-JSFEPRESCHOOL/portfolio/">
+                        landing page portfolio photographer's "Alexa Rise"</a></p>
+                </li>
+                <li class="section-item section-portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M14 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8m0 2c3.32 0 6 2.69 6 6 0 3.32-2.68 6-6 6a6 6 0 0 1-6-6 6 6 0 0 1 6-6M4.93 5.82C3.08 7.34 2 9.61 2 12a8 8 0 0 0 8 8c.64 0 1.27-.08 1.88-.23-1.76-.39-3.38-1.27-4.71-2.48C5.22 16.25 4 14.21 4 12c0-.3.03-.59.07-.89C4.03 10.74 4 10.37 4 10c0-1.44.32-2.87.93-4.18Z"/>
+                    </svg>
+                    <p><a href="https://github.com/NikitaShakhovich/1635751-kekstagram-23">
+                        service for viewing images "Kextagram"</a></p>
+                </li>
+                <li class="section-item section-portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M14 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8m0 2c3.32 0 6 2.69 6 6 0 3.32-2.68 6-6 6a6 6 0 0 1-6-6 6 6 0 0 1 6-6M4.93 5.82C3.08 7.34 2 9.61 2 12a8 8 0 0 0 8 8c.64 0 1.27-.08 1.88-.23-1.76-.39-3.38-1.27-4.71-2.48C5.22 16.25 4 14.21 4 12c0-.3.03-.59.07-.89C4.03 10.74 4 10.37 4 10c0-1.44.32-2.87.93-4.18Z"/>
+                    </svg>
+                    <p><a href="https://nikitashakhovich.github.io/1635751-sedona-22/source/">
+                        hotel search "Sedona"</a></p>
+                </li>
+                <li class="section-item section-portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path d="M14 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8m0 2c3.32 0 6 2.69 6 6 0 3.32-2.68 6-6 6a6 6 0 0 1-6-6 6 6 0 0 1 6-6M4.93 5.82C3.08 7.34 2 9.61 2 12a8 8 0 0 0 8 8c.64 0 1.27-.08 1.88-.23-1.76-.39-3.38-1.27-4.71-2.48C5.22 16.25 4 14.21 4 12c0-.3.03-.59.07-.89C4.03 10.74 4 10.37 4 10c0-1.44.32-2.87.93-4.18Z"/>
+                    </svg>
+                    <p><a href="https://nikitashakhovich.github.io/1635751-technomart-30/">
+                        online store "Technomart"</a></p>
+                </li>
+            </ul>
         </section>
-        <section class="section" id="courses">
+        <section class="section section-courses" id="courses">
             <h2 class="section-title">Courses</h2>
             <ul class="section-list">
                 <li class="section-item section-courses">
@@ -211,7 +241,7 @@
                 </li>
             </ul>
         </section>
-        <section class="section" id="experience">
+        <section class="section section-experience" id="experience">
             <h2 class="section-title">Experience</h2>
             <ul class="section-list">
                 <li class="section-item section-experience">
@@ -254,7 +284,7 @@
 </main>
 <footer class="page-footer">
     <div class="container footer-container">
-        <p>2022©<a href="https://github.com/NikitaShakhovich" class="footer-links">NikitaShakhovich</a></p>
+        <p>2023©<a href="https://github.com/NikitaShakhovich" class="footer-links">NikitaShakhovich</a></p>
         <a href="https://rs.school/js/">
             <svg class="icon-rs" width="80" height="29" viewBox="0 0 80 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M41.2862 9.10523L45.0447 8.86509C45.1304 9.4725 45.2876 9.92452 45.5449 10.2494C45.9593 10.7579 46.5309 11.0122 47.2883 11.0122C47.8457 11.0122 48.2887 10.8851 48.5888 10.6167C48.8746 10.4048 49.0461 10.0658 49.0461 9.71263C49.0461 9.37362 48.8889 9.04872 48.6174 8.83684C48.3316 8.58258 47.6599 8.32832 46.6024 8.1023C44.8732 7.72091 43.6299 7.21239 42.9011 6.56261C42.1722 5.9552 41.7578 5.06528 41.7864 4.11886C41.7864 3.46908 41.9864 2.8193 42.358 2.28253C42.7867 1.67512 43.3726 1.19485 44.0729 0.926463C44.8303 0.601572 45.8878 0.432064 47.2169 0.432064C48.8461 0.432064 50.0894 0.728703 50.9468 1.33611C51.8043 1.92939 52.3187 2.88993 52.4759 4.20362L48.7603 4.4155C48.6603 3.85048 48.4602 3.44083 48.1315 3.17244C47.8028 2.90406 47.3741 2.77693 46.8168 2.77693C46.3594 2.77693 46.0165 2.87581 45.7878 3.05944C45.5734 3.22895 45.4305 3.48321 45.4448 3.76572C45.4448 3.97761 45.5592 4.17537 45.7306 4.3025C45.9164 4.47201 46.3594 4.62739 47.0597 4.76865C48.7889 5.13591 50.0179 5.50318 50.7753 5.88457C51.5327 6.26597 52.0758 6.73211 52.4045 7.28301C52.7475 7.84804 52.919 8.49782 52.9047 9.16173C52.9047 9.95277 52.676 10.7438 52.2187 11.4077C51.7471 12.0999 51.0897 12.6366 50.318 12.9615C49.5034 13.3147 48.4745 13.4983 47.2455 13.4983C45.0733 13.4983 43.5727 13.0887 42.7296 12.2553C41.8864 11.4218 41.3862 10.3765 41.2862 9.10523ZM1.40033 13.2864V0.658075H7.98842C9.20315 0.658075 10.1463 0.756955 10.7894 0.96884C11.4182 1.1666 11.9756 1.57624 12.3471 2.12714C12.7616 2.73455 12.9616 3.44083 12.9474 4.17537C12.9902 5.41843 12.3471 6.60498 11.2467 7.22651C10.818 7.46665 10.3464 7.63616 9.86053 7.72091C10.2178 7.81979 10.5751 7.9893 10.8895 8.18706C11.1324 8.38482 11.3325 8.61083 11.5183 8.85096C11.7326 9.0911 11.9184 9.35949 12.0756 9.642L13.9906 13.3006H9.50326L7.38821 9.41599C7.11668 8.92159 6.88802 8.5967 6.67366 8.44132C6.38784 8.24356 6.04486 8.14468 5.70188 8.14468H5.3589V13.2723H1.40033V13.2864ZM5.3589 5.77157H7.03093C7.38821 5.74332 7.73119 5.68681 8.07417 5.60206C8.3314 5.55968 8.56006 5.41843 8.71726 5.20654C9.10311 4.69802 9.04595 3.97761 8.57435 3.53971C8.31711 3.32783 7.81693 3.21482 7.10239 3.21482H5.3589V5.77157ZM0.5 24.1067L4.2585 23.8666C4.34425 24.474 4.50145 24.926 4.75868 25.2509C5.15883 25.7594 5.74475 26.0278 6.50217 26.0278C7.05951 26.0278 7.50253 25.9007 7.80264 25.6323C8.08846 25.4063 8.25995 25.0814 8.25995 24.7282C8.25995 24.3892 8.10275 24.0643 7.83122 23.8524C7.5454 23.5982 6.87373 23.3439 5.80192 23.1179C4.07272 22.7365 2.82941 22.228 2.10058 21.5782C1.37174 20.9708 0.957308 20.0809 0.98589 19.1345C0.98589 18.4847 1.18596 17.8349 1.55753 17.2981C1.98625 16.6907 2.57218 16.2104 3.27243 15.9421C4.02985 15.6172 5.08737 15.4477 6.41643 15.4477C8.04559 15.4477 9.28889 15.7443 10.1463 16.3517C11.0038 16.9591 11.504 17.9055 11.6612 19.2192L7.94555 19.4311C7.84551 18.8661 7.64544 18.4564 7.31675 18.188C7.00235 17.9196 6.55933 17.7925 6.00199 17.8066C5.54468 17.8066 5.2017 17.9055 4.97305 18.1033C4.74439 18.2728 4.61577 18.527 4.63006 18.8096C4.63006 19.0214 4.74439 19.2192 4.91588 19.3463C5.10166 19.5158 5.54468 19.6712 6.24494 19.8125C7.97413 20.1798 9.20315 20.547 9.96056 20.9284C10.718 21.3098 11.261 21.776 11.5897 22.3269C11.9327 22.8919 12.1042 23.5417 12.1042 24.1914C12.1042 24.9825 11.8613 25.7594 11.4182 26.4233C10.9466 27.1155 10.2893 27.6522 9.51755 27.9771C8.70297 28.3303 7.67402 28.5139 6.44501 28.5139C4.27279 28.5139 2.77225 28.1043 1.92909 27.2708C1.08593 26.4233 0.614327 25.378 0.5 24.1067Z" fill="#F8F0E4"></path>
